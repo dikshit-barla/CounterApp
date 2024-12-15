@@ -1,0 +1,74 @@
+body {
+    background-color: rgb(7, 199, 123);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0; /* Fix margin to avoid default browser spacing */
+    height: 100vh; /* Center content vertically on the full viewport */
+}
+
+#container {
+    height: 300px; /* Increased height for better spacing */
+    width: 500px;
+    border: 10px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px; /* Space between child elements */
+    background-color: white; /* Adds contrast to make it visually appealing */
+    border-radius: 10px; /* Softens the edges of the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Adds a subtle shadow effect */
+}
+
+#hea {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    border: 5px solid black;
+    height: 20%; /* Reduced height to allow better alignment */
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(240, 240, 240); /* Light background for clarity */
+    border-radius: 5px; /* Softer edges */
+    text-align: center;
+}
+
+.asalbox {
+    height: 50%;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly; /* Buttons and counter evenly spaced */
+    align-items: center;
+    gap: 20px; /* Space between elements */
+    font-size: 30px; /* Adjusted font size for better readability */
+    font-family: Arial, sans-serif;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(7, 199, 123);
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    height: 60px;
+    width: 60px;
+}
+
+button:hover {
+    background-color: rgb(5, 150, 100);
+    transform: scale(1.05); /* Slight scaling effect on hover */
+}
+
+#details {
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
